@@ -5,14 +5,14 @@ metadata:
     kubernetes.io/ingress.class: traefik
     traefik.frontend.rule.type: PathPrefixStrip
   creationTimestamp: null
-  name: might-fine-fe
+  name: mighty-fine-fe
   namespace: dev
 spec:
   rules:
   - http:
       paths:
       - backend:
-          serviceName: might-fine-fe
+          serviceName: mighty-fine-fe
           servicePort: http
         path: /mighty-fine
 status:
