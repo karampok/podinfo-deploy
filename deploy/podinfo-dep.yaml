@@ -7,6 +7,7 @@ metadata:
   annotations:
     flux.weave.works/tag.podinfod: glob:*
     flux.weave.works/automated: 'true'
+    flux.weave.works/tag.mighty-fine-fe: glob:vi1-simple-app
 spec:
   replicas: 1
   selector:
