@@ -1,0 +1,1 @@
+{"jobID":"0e450b58-d108-8942-4266-d7de80ff64f8","spec":{"type":"policy","cause":{"Message":"","User":"Konstantinos Karampogias \u003ckarampok@gmail.com\u003e"},"spec":{"dev:deployment/podinfo":{"add":{"tag.podinfod":"glob:1.5.0"},"remove":null}}},"result":null}
