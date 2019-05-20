@@ -21,6 +21,6 @@ spec:
     spec:
       containers:
       - name: mighty-fine-fe
-        image: quay.io/brice/metrics-demo:v1-simple-app
+        image: quay.io/brice/metrics-demo:master
         ports:
         - containerPort: 3000
