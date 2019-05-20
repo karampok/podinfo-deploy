@@ -1,0 +1,1 @@
+{"jobID":"0b0d5a88-7e3f-7315-f043-ed8b6d664a0a","spec":{"type":"policy","cause":{"Message":"","User":"Konstantinos Karampogias \u003ckarampok@gmail.com\u003e"},"spec":{"dev:deployment/mighty-fine-fe":{"add":{"tag.mighty-fine-fe":"glob:vi1-simple-app"},"remove":null}}},"result":null}
