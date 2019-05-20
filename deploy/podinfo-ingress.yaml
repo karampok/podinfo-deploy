@@ -5,15 +5,15 @@ metadata:
     kubernetes.io/ingress.class: traefik
     traefik.frontend.rule.type: PathPrefixStrip
   creationTimestamp: null
-  name: podinfo
+  name: might-fine-fe
   namespace: dev
 spec:
   rules:
   - http:
       paths:
       - backend:
-          serviceName: podinfo
-          servicePort: 9898
-        path: /podinfo
+          serviceName: might-fine-fe
+          servicePort: http
+        path: /mighty-fine
 status:
   loadBalancer: {}
